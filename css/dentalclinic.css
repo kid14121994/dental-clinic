@@ -1,0 +1,251 @@
+@charset "UTF-8";
+
+html {
+    font-size: 100%;
+}
+
+img {
+    max-width: 120%;
+}
+
+a {
+    text-decoration: none;
+}
+
+header {
+    margin: 0 auto;
+    padding: 0;
+    width: 940px;
+}
+
+.page-header {
+    justify-content: space-between;
+    display: flex;
+}
+
+.page-logo {
+    width: 260px;
+    height: 57.8px;
+    margin-top: 10px;
+    justify-content: end;
+}
+
+.top-page ul {
+    list-style: none;
+    width: 300px;
+    text-align: end;
+    margin-top: 5px
+}
+
+.description {
+    font-size: 77%;
+    padding: 5px;
+}
+
+.phone-number {
+    font-size: 150%;
+}
+
+.business-hours {
+    font-size: 77%;
+    padding-top: 5px;
+    border: solid 1px #4D82C4;
+    text-align: end;
+    width: 250px;
+    display: block;
+    margin-left: auto;
+}
+
+.business-hours span {
+    color: red;
+}
+
+.main-nav {
+    list-style: none;
+    margin-top: 15px;
+}
+
+.main-nav ul {
+    font-size: 0;
+    padding: 0;
+    text-align: justify;
+}
+
+.main-nav li {
+    display: inline-block;
+    margin-top: 5px;
+}
+
+.main-nav a {
+    width: 185px;
+    height: 70px;
+    background-color: #6CC6C4;
+    border: solid 1px #4D82C4;
+    text-align: center;
+    color: #fff;
+    display: inline-block;
+    font-size: 15px;
+    text-align: center;
+}
+
+.big {
+    margin-top: 20px;
+}
+
+.small {
+    font-size: 10px;
+}
+
+aside {
+    margin: 0;
+    padding: 0;
+}
+
+.wrapper {
+    margin:0 auto;
+    display: flex;
+    width: 940px;
+    justify-content: space-between;
+}
+
+.sub {
+    margin:0 auto;
+    display: flex;
+}
+
+.side-bar {
+    width: 380px;
+    border: solid 1px #4D82C4;
+    width: 260px;
+    height: 230px;
+    margin-top: 20px;
+    padding: 0;
+}
+
+.side-bar h2 {
+    margin: 0;
+    width: 260px;
+    height: 46px;
+    color: #fff;
+    background-color: #6CC6C4;
+    vertical-align: middle;
+    padding: 11px 0 11px 10px;
+    box-sizing: border-box;
+}
+
+.side-bar ul {
+    margin: 0;
+    padding: 0;
+    list-style-image: url(/dentalclinic/images/bgListIcon01.png);
+    color: black;
+    margin-left: 20px;
+    box-sizing: border-box;
+
+}
+
+.side-bar li {
+    color: #000;
+}
+
+.side-bar a {
+    width: 220px;
+    height: 42px;
+    display: block;
+    color: #000;
+    border-bottom:solid 1px #6CC6C4;
+    padding: 15px 0 15px 10px;
+    box-sizing: border-box;
+}
+
+.main {
+    margin-left: 30px;
+}
+
+.information {
+    height: 410.8px;
+    width: 640px;
+    background-color: rgb(233, 230, 230);
+}
+
+.information1 {
+    width: 600px;
+}
+
+.information1 h2 {
+    font-size: 16px;
+    border-bottom: #6CC6C4;
+    box-sizing: border-box;
+    padding: 15px 0 0 10px;
+}
+
+.main img {
+    margin-top: 20px;
+}
+
+.information2 ul {
+    list-style: none;
+    padding: 0;
+}
+
+.information3 {
+    border-bottom: dotted 1px black;
+    width: 640px;
+    height: 60px;
+    display: flex;
+}
+
+.information3 h3 {
+    font-size: 13px;
+    width: 150px;
+    padding-left: 10px;
+}
+
+.information3 p {
+    font-size: 13px;
+    padding-left: 30px;
+    width: 440px
+}
+
+.footer-nav {
+    width: 940px;
+    height: 30px;
+    margin: 0 auto;
+    background-color: #6CC6C4;
+}
+
+.footer-nav ul {
+    color: black;
+}
+
+.footer-nav li {
+    display: inline;
+    padding-left: 20px;
+    width: auto;
+    font-size: 15px;
+    list-style: url(images/bgFooterIcon.png);
+}
+
+.footer-nav img {
+    margin-top: 7px;
+}
+
+.footer-nav a {
+    color: #fff;
+}
+
+.adress {
+    width: 940px;
+    margin: 0 auto;
+    margin-top: 20px;
+    border-bottom:solid 3px #6CC6C4;
+    height: 50px;
+}
+
+.adress p {
+    text-align: right;
+}
+
+.finish {
+    text-align: center;
+    font-size: 12px;
+}
